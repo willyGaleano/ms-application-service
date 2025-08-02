@@ -22,8 +22,8 @@ export class BootstrapService {
 
   static setupSwagger(app: NestFastifyApplication): void {
     const options = new DocumentBuilder()
-      .setTitle('NestJS Screaming Architecture')
-      .setDescription('API documentation for the NestJS Screaming Architecture')
+      .setTitle('MS Application Service API')
+      .setDescription('API documentation for the MS Application Service')
       .setVersion('1.0')
       .build();
     const document = SwaggerModule.createDocument(app, options);

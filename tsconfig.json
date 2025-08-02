@@ -15,6 +15,7 @@
     "baseUrl": "./",
     "paths": {
       "@health/*": ["./src/apps/health/*"],
+      "@enrollment/*": ["./src/apps/enrollment/*"],
       "@common/*": ["./src/common/*"],
       "@config/*": ["./src/infrastructure/config/*"],
       "@context-store/*": ["./src/infrastructure/context-store/*"],

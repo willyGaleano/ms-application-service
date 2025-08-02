@@ -8,6 +8,3 @@ export const environmentValues = [
   Environment.STG,
   Environment.PRD,
 ] as const;
-
-export const APP_NAME_DEFAULT = 'ms-nest-screaming-architecture';
-export const HTTP_PORT_DEFAULT = 3000;
